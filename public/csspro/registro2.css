@@ -1,0 +1,116 @@
+/* Estilo para el encabezado */
+header {
+    background-color: #a3d8a3; /* Cambio de color del header */
+    color: #333; /* Texto oscuro para contraste */
+    padding: 20px 0; /* Aumento del espacio de padding */
+    text-align: center;
+    font-size: 24px; /* Aumento del tamaño de la fuente */
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilo para el cuerpo de la página */
+body {
+    background-color: #a3d8a3; /* Cambio de color del body */
+    margin: 0;
+    font-family: Arial, sans-serif; /* Usando una fuente genérica */
+}
+
+/* Estilo para el formulario */
+.login-form {
+    width: 80%; /* Ancho del formulario */
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff; /* Cambio del color de fondo del formulario */
+}
+
+/* Estilo para los títulos */
+h2 {
+    text-align: center;
+    margin-bottom: 20px; /* Aumento del margen inferior del título */
+}
+
+/* Estilo para las etiquetas */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilo para los campos de entrada */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+/* Estilo para el campo de archivo adjunto */
+input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px; /* Agregar espacio arriba del campo de archivo adjunto */
+    margin-bottom: 10px; /* Agregar espacio debajo del campo de archivo adjunto */
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+/* Estilo para el botón de enviar */
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffa500; /* Naranja claro */
+    color: #000 !important; /* Texto negro */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold; /* Texto en negrita */
+    margin-top: 10px; /* Agregar espacio arriba del botón */
+    margin-bottom: 10px; /* Agregar espacio debajo del botón */
+}
+
+/* Estilo para el botón de enviar al pasar el mouse */
+button[type="submit"]:hover {
+    background-color: #ff8c00; /* Naranja más oscuro al pasar el mouse */
+}
+
+/* Estilo para el footer */
+footer {
+    background-color: #ffa500; /* Naranja claro */
+    color: #000; /* Texto negro */
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Media queries para hacer que el formulario sea responsive */
+@media (max-width: 768px) {
+    .login-form {
+        width: 90%; /* Reducir el ancho del formulario para pantallas más pequeñas */
+        max-width: none; /* Eliminar el ancho máximo para permitir que el formulario se expanda */
+    }
+}
+
+/* Estilos para la calidad de la contraseña */
+.low-quality { color: red; }
+.medium-quality { color: yellow; }
+.high-quality { color: green; }
+.password-field {
+    position: relative;
+}
+.password-field input {
+    padding-right: 30px; /* Espacio adicional para el ícono */
+}
+.password-field .toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}

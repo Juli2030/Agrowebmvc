@@ -1,0 +1,87 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a3d8a3; /* Cambio de color del fondo del body a verde claro medio */
+    position: relative; /* Establece la posición relativa del cuerpo */
+    color: #000; /* Cambio de color del texto a negro */
+}
+
+header {
+    background-color: #a3d8a3; /* Header del mismo color que el body */
+    color: #000; /* Cambio de color del texto a negro */
+    padding: 20px;
+    text-align: center;
+    font-size: 24px; /* Aumentar el tamaño de letra del header */
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.login-form {
+    max-width: 400px;
+    margin: 0 auto; /* Centrar el formulario */
+    position: absolute; /* Establece la posición absoluta del formulario */
+    top: 50%; /* Mueve el formulario al centro verticalmente */
+    left: 50%; /* Mueve el formulario al centro horizontalmente */
+    transform: translate(-50%, -50%); /* Centra exactamente el formulario */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo del formulario con opacidad */
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px; /* Aumentar el tamaño de letra del formulario */
+}
+
+.login-form img {
+    max-width: 100%;
+    height: auto;
+    opacity: 0.8; /* Opacidad de la imagen */
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"],
+.login-form select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    font-size: 18px; /* Aumentar el tamaño de letra del formulario */
+}
+
+.login-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #ffa500; /* Botón de inicio de sesión de color naranja suave */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px; /* Aumentar el tamaño de letra del formulario */
+}
+
+.login-form button[type="submit"]:hover {
+    background-color: #ff8c00; /* Cambio de color al pasar el mouse */
+}
+
+footer {
+    background-color: #ffa500; /* Footer de color naranja */
+    color: #000; /* Cambio de color del texto a negro */
+    padding: 10px;
+    text-align: center;
+}
+.input-with-icon {
+    padding-left: 30px; /* Ajusta este valor según sea necesario */
+    position: relative;
+    margin-bottom: 15px; /* Agregado para separación entre campos */
+}
+
+.input-with-icon i {
+    position: absolute;
+    left: 5px; /* Ajusta este valor según sea necesario */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999; /* Color del icono */
+}

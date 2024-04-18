@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a3d8a3; /* Color de fondo del body */
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: #f2f2f2;
+}
+img {
+    width: 50px;
+    height: auto;
+}
+button {
+    background-color: #ff8c00; /* Color del botón */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #ffad5d; /* Color del botón al pasar el mouse */
+}
+/* Estilo para el footer */
+footer {
+    background-color: #ffa500; /* Naranja claro */
+    color: #000; /* Texto negro */
+    padding: 10px 0;
+    text-align: center;
+    position: fixed; /* Footer fijo en la parte inferior */
+    width: 100%; /* Ocupar todo el ancho de la pantalla */
+    bottom: 0; /* Alineado en la parte inferior */
+    left: 0; /* Alineado a la izquierda */
+    right: 0; /* Alineado a la derecha */
+}
